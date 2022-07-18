@@ -6,7 +6,7 @@ E. Spyromitros-Xioufis, S. Papadopoulos, A. Popescu, Y. Kompatsiaris, "<a href="
 
 All the experimental results of the paper can be replicated by simply executing the main method of the ExperimentsRunner class (after setting the datasetFolder variable to point at the location where the datasets reside).
 
-The datasets can be found at: <a href="http://mklab.iti.gr/datasets/image-privacy">http://mklab.iti.gr/datasets/image-privacy/</a> 
+The datasets can be found at: <a href="https://drive.google.com/file/d/1j-9e1EuOuqiikXf5-y4CQiMB1P2WYRlM/view">the following link</a> 
 and are divided in two subfolders, '/youralert' and '/picalert', each one containing the datasets that we created out of the images and ground truth of the corresponding image privacy collection (YourAlert/PicAlert). For both datasets we have extracted 'vlad', 'cnn', and 'semfeat' features (as described in our paper) and, additionally, 'edch' and 'bow' features have been kindly provided for PicAlert from the <a href="http://l3s.de/picalert/">PicAlert team</a>. Thus, we have composed 3 YourAlert and 5 PicAlert datasets.
 For all datasets we use <a href="http://www.cs.waikato.ac.nz/~ml/weka/">Weka</a>'s <a href="http://www.cs.waikato.ac.nz/ml/weka/arff.html">sparse ARFF format</a> with a header that in all cases looks like:
 <pre>
